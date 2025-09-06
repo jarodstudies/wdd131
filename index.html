@@ -4,11 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta name="author" content="Jarod Ramos">
+    <meta name="description" 
+    content="This WDD 131 - Dynamic Web Fundamentals - web doc will be the home page for Jarod Ramos 
+    acting as the landing page for the wdd131 course.">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdate.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+    <title>WDD 131 - Dynamic Web Fundamentals - Jarod Ramos </title>
+
 </head>
 
 <body>
-    <h1>Jarod</h1>
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="www.linkedin.com/in/jarod-ramos-29286611a">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5?lang=eng&id=p12#p12">Scripture</a>
+            <a href="#FinalProject">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Jarod Ramos</h1>
+        <section class="card">
+            <h2>About Me</h2>
+            <img id="personal" src="/images/personal.jpg" alt="Personal Image">
+            <p>
+                My name is Jarod Ramos, and I live in Johannesburg, South Africa. I currently work as a System Administrator at a VAS
+                company.Ive always had a passion for sports, with football being my favorite. I regularly play indoor football and enjoy
+                watching matches with my family. Im a lifelong supporter of Arsenal, a team Ive followed since the age of eight.Outside
+                of sports, I love spending time with my family and going on trips together. One of the most meaningful
+                experiences in my life was serving a full-time mission in London, England, where I strengthened my relationship with my
+                Savior.
+            </p>
+            <h3>My Family</h3>
+            <img id="family" src="/images/family.jpg" alt="Family Image">
+            <p>
+                I am the third son of four boys. My two older brothers are married, and each has a son. My eldest brother lives in
+                England, while the rest of the family still resides in South Africa.I am married to my wife, Monizelle, and we have 
+                a two-year-old son named Eli. My father is from Portugal, his family moved to South Africa, and he was baptized at 
+                the age of twenty after meeting the missionaries. My mother was born in South Africa and was raised in the church.
+            </p>
+            
+        </section>
+        <section class="card">
+            <h2> Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+                <li><a href="https://codepen.io/">Code Pen</a></li>
+
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span>  Jarod Ramos  South Africa
+        </p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 
 </html>

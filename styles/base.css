@@ -1,0 +1,110 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+#course-title{
+    font-family: "Epunda Slab", serif;
+    display: block;
+    background-color: rgb(61, 61, 146);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 25PX;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(35, 35, 35);
+}
+
+nav a {
+    flex: 1 1 100%;
+    color: white;
+    font-family: "Epunda Slab", serif;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+nav a:hover {
+    text-decoration-line: overline;
+    font-size: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+main h1 {
+    font-family: "Epunda Slab", serif;
+    text-align: center;
+    grid-column: 1/-1;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+section p {
+    padding: 50px;
+    font-size: 16px;
+}
+
+section h2 {
+    background-color: rgb(61, 61, 146);
+    width: 100%;
+    color: white;
+    margin: 0;
+    padding-bottom: 10px;
+    border-radius: 7px 7px 0 0 ;
+}
+
+section h3 {
+    padding-left: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+section ul {
+    display: grid;
+    grid-template-rows: 7fr 7fr 7fr 7fr 2fr;
+    padding-top: 70px;
+    font-size: 15px;
+    text-align: left;
+}
+
+img {
+    height: 210px;
+    width: 210px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#personal {
+    float: right;
+}
+
+#family {
+    float: left;
+}
+
+footer {
+    background-color: rgb(61, 61, 146);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: "Epunda Slab", serif;
+}
