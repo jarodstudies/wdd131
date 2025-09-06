@@ -62,8 +62,11 @@ main h1 {
 }
 
 section p {
-    padding: 50px;
+    padding: 20px;
     font-size: 16px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 section h2 {
