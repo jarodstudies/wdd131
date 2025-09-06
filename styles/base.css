@@ -62,10 +62,10 @@ main h1 {
 }
 
 section p {
-    padding: 20px;
+    padding: 15px;
     font-size: 16px;
     line-height: 1.5;
-    max-width: 800px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -93,12 +93,12 @@ section ul {
 }
 
 img {
-    height: 210px;
-    width: 210px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
-    padding: 5px;
+    padding: 3px;
 }
 
 #personal {
